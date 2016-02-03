@@ -1,0 +1,93 @@
+[
+  {
+    "type": "square",
+    "center_x": 0,
+    "center_y": 0,
+    "side": 2,
+    "color": "black"
+  },
+  {
+    "type": "pie",
+    "center_x": 0,
+    "center_y": 0,
+    "radius": 200,
+    "arg_degrees": 60,
+    "color": "dark blue"
+  },
+  {
+    "type": "pie",
+    "center_x": 0,
+    "center_y": 0,
+    "radius": 100,
+    "arg_degrees": 60,
+    "color": "dark green"
+  },
+  {
+    "type": "square",
+    "center_x": 0,
+    "center_y": 0,
+    "side": 100,
+    "color": "red"
+  },
+  {
+    "type": "square",
+    "center_x": 0,
+    "center_y": 0,
+    "side": 200,
+    "color": "blue"
+  },
+  {
+    "type": "polygon",
+    "center_x": 0,
+    "center_y": 0,
+    "radius": 100,
+    "num_sides": 5,
+    "color": "black"
+  },  
+  {
+    "type": "polygon",
+    "center_x": 0,
+    "center_y": 0,
+    "radius": 280,
+    "num_sides": 9,
+    "color": "red"
+  },
+  {
+    "type": "polygon",
+    "center_x": 0,
+    "center_y": 0,
+    "radius": 160,
+    "num_sides": 6,
+    "color": "black"
+  },
+  {
+    "type": "circle",
+    "center_x": 0,
+    "center_y": 0,
+    "radius": 50,
+    "color": "blue"
+  },
+  {
+    "type": "circle",
+    "center_x": 0,
+    "center_y": 0,
+    "radius": 100,
+    "color": "red"
+  },
+  {
+    "type": "rectangle",
+    "center_x": 0,
+    "center_y": 0,
+    "width": 120,
+    "height": 60,
+    "color": "green"
+  },
+  {
+    "type": "rectangle",
+    "center_x": 0,
+    "center_y": 0,
+    "width": 140,
+    "height": 350,
+    "color": "yellow"
+  }
+]
