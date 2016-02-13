@@ -6,7 +6,7 @@
     <ProjectGuid>c27dbd5c-b3e0-4677-815a-668927649229</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>anagrams.py</StartupFile>
+    <StartupFile>distances.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,9 @@
     <Compile Include="currencies_exhange.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="distances.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="drug_packages.py">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +55,8 @@
   <ItemGroup>
     <Content Include="data\amounts.txt" />
     <Content Include="data\anagrams.txt" />
+    <Content Include="data\distances1.txt" />
+    <Content Include="data\distances2.txt" />
     <Content Include="data\drug_packages.txt" />
     <Content Include="data\exchange.txt" />
     <Content Include="data\sales.txt" />
