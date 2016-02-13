@@ -9,15 +9,15 @@ def main():
         print('INVALID INPUT')
     else:
         words = load_words(filename)
-        result = []
+        anagrams = []
         for perm in itertools.permutations(word, len(word)):
             joined = ''.join(perm)
             if joined in words:
-                result.append(joined)
-        result = [w for w in result if w != word] # list(filter((word).__ne__, result))
-        if len(result) > 0:
-            for r in sorted(result):
-                print(r)
+                anagrams.append(joined)
+        anagrams = [w for w in anagrams if w != word] # list(filter((word).__ne__, anagrams))
+        if len(anagrams) > 0:
+            for an in sorted(anagrams):
+                print(an)
         else:
             print('NO ANAGRAMS')
 
