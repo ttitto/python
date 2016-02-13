@@ -6,7 +6,7 @@
     <ProjectGuid>c27dbd5c-b3e0-4677-815a-668927649229</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>distances.py</StartupFile>
+    <StartupFile>open_refrigerator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -42,6 +42,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MostCommonCharacter.py" />
+    <Compile Include="open_refrigerator.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="paint_bottles.py">
       <SubType>Code</SubType>
     </Compile>
@@ -60,6 +63,7 @@
     <Content Include="data\drug_packages.txt" />
     <Content Include="data\exchange.txt" />
     <Content Include="data\sales.txt" />
+    <Content Include="data\refrigerator.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
