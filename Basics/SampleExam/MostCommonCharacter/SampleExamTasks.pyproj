@@ -6,7 +6,7 @@
     <ProjectGuid>c27dbd5c-b3e0-4677-815a-668927649229</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>open_refrigerator.py</StartupFile>
+    <StartupFile>takovata.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -48,6 +48,9 @@
     <Compile Include="paint_bottles.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="takovata.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="triangle_area.py">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +67,7 @@
     <Content Include="data\exchange.txt" />
     <Content Include="data\sales.txt" />
     <Content Include="data\refrigerator.txt" />
+    <Content Include="data\takovata_log.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
